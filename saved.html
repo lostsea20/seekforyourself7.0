@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上岸</title>
+    <style>
+        @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+        @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;300&family=M+PLUS+1p:wght@500&family=Noto+Sans:wght@700&family=Noto+Serif+TC:wght@200&display=swap');
+        .bg {
+            z-index: -100;
+            background-size: 100% 120%;
+            background-attachment: scroll;
+        }
+        .pp{
+            animation: fadeInAnimation1 ease 1.5s; 
+            animation-iteration-count: 1; /*设置动画播放次数*/
+            animation-fill-mode: forwards; /*设置样式以在动画不播放时应用元素。forward是设置动画结束后，使用元素的结束属性值*/
+            color: lightgray;
+        }
+        .pp:hover{ 
+            animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; /*设置动画播放次数*/
+            animation-fill-mode: forwards; /*设置样式以在动画不播放时应用元素。forward是设置动画结束后，使用元素的结束属性值*/
+            color: black;
+        } 
+        .video:hover{
+            box-shadow:3px 3px 9px black;
+        }
+        .pic{overflow:hidden;}
+        .pic img{transform:scale(1,1);transition: all 1s ease-out;}
+        .pic img:hover{transform:scale(1.2,1.2);}
+        @keyframes fadeInAnimation { 
+            0% { 
+                color: lightgray;
+            } 
+            100% { 
+                color: black; 
+            } 
+        }
+        @keyframes fadeInAnimation1 { 
+            0% { 
+                color: black;
+            } 
+            100% { 
+                color: lightgray; 
+            } 
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload = function(){
+                 setInterval("toggleSound()",100);
+            }
+    
+        function toggleSound() {
+                    var music = document.getElementById("music");//獲取ID  
+                        
+                    if (music.paused) { //判讀是否播放  
+                        music.paused=false;
+                        music.play(); //沒有就播放 
+                    }    
+            }
+    </script>
+</head>
+<body class="bg" background="img/bg.png">
+    <audio id="music" src="img/白色音樂.mp3" style="float: right; visibility: hidden;" controls loop></audio><br><br><br><br><br><br><br>
+    <p style="text-align: center; color: white;font-family: 'cwTeXFangSong', serif;">點擊影片後音樂就會自己播放了喔！</p>
+    <div style="text-align: center;font-size: 20px; font-family: 'cwTeXFangSong', serif">
+        <iframe width="850px" height="550" src="https://www.youtube.com/embed/GebbKqsomdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       
+        <br><br><br><p>凝視深淵的同時，也會見著光芒。</p><br><br><br><br>
+        <div style="text-align: center;" >
+            <div class="pic" style="width: 27%; display: inline-block;box-shadow:3px 3px 9px black;"><img src="img/W1.jpeg" style="width: 100%;"></img></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <div class="pic" style="width: 27%; display: inline-block;box-shadow:3px 3px 9px black;"><img src="img/W2.jpg" style="width: 100%;"></img></div>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <div class="pic" style="width: 27%; display: inline-block;box-shadow:3px 3px 9px black;"><img src="img/W3.jpg" style="width: 100%;"></img></div>
+        </div><br>
+        <p>願我們都能因著海，重新找回自己。</p>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div>
+    <div style="width: 50%; display: inline-block;"></div>
+    <div style="text-align: center;  margin-right: 50px; opacity: 1; color: lightgray; font-size: 20px;font-family: 'cwTeXFangSong', serif;width: 40%;display: inline-block;">
+        <p class="pp">慶幸我們還可以將吶喊塞進海風，還可以將淚水隨著海水褪去，還可以將靈魂寄託在倒影。</p>
+        <br>
+        <p class="pp">給自己適當的亮度就是你最剛好、適合的模樣。</p>
+        <br>
+        <p class="pp">不要害怕成為孤單的動物，每個旋律都有存在的可能。</p>
+        <br>
+        <p class="pp">翅膀長在你的肩上，太在乎別人對於飛行姿勢的批評，所以你飛不起來。」——《傷心咖啡店之歌》</p>
+        <br>
+        <p class="pp">就讓所有的不完美，陪著決心與時間慢慢一同淬鍊。</p>
+        <br>
+        <p class="pp">就讓洋流傳播溫暖吧，從此端到達彼岸。</p>
+        <br>
+        <p class="pp">在隨波逐流的世界，想抓住自己的你，很勇敢。</p>
+        <br>
+        <p class="pp">希望你和自己在平凡的生活裡收穫瑣碎的小確幸，依舊熱愛依舊嚮往著自己。</p>
+        <br>
+        <p class="pp">所有的海岸都會在侵蝕過後形成新的風景，我們會擁抱你的碎片。</p>
+        <br>
+        <p class="pp">即使在一個又一個的荒島徘徊，終究會找的你的彼岸。</p>
+        <br>
+        <p class="pp">謝謝你們隨著這些碎片漂泊到這裡，希望往後你們能成為自己的海、自己的岸。－－SEEK團隊</p>
+        <br><br><br><br><br><br><br>
+    </div>
+    </div>
+    <div style="float: inline-end;text-align: center;font-family: 'M PLUS 1', sans-serif;font-size: 30px;"><p>Copyright©&nbsp2021&nbspSEEK&nbspAll&nbspRights&nbspReserved</p></div>
+</body>
+</html>
